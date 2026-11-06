@@ -24,12 +24,12 @@ This repository is a worked case study showing how I would plan, run and close a
 
 | # | Document | What it shows |
 |---|---|---|
-| 01 | [Project Charter](docs/01-project-charter.md) | Business case, scope, objectives, success measures, budget, governance |
-| 02 | [Delivery Plan](docs/02-delivery-plan.md) | Phases, milestones, wave schedule, Gantt timeline, go/no-go criteria |
-| 03 | [RAID Log](docs/03-raid-log.md) ([CSV](docs/raid-log.csv)) | Risks, assumptions, issues and dependencies with owners and mitigations |
-| 04 | [Stakeholder & Comms Plan](docs/04-stakeholder-comms-plan.md) | Stakeholder map, RACI, comms schedule, sample user announcements |
-| 05 | [Weekly Status Report](docs/05-status-report-week-14.md) | RAG-rated status report mid-project, with a live issue being managed |
-| 06 | [Closure Report & Lessons Learned](docs/06-closure-report-lessons-learned.md) | Benefits realised, handover to BAU, lessons for future projects |
+| 01 | [Project Charter](01-project-charter.md) | Business case, scope, objectives, success measures, budget, governance |
+| 02 | [Delivery Plan](02-delivery-plan.md) | Phases, milestones, wave schedule, Gantt timeline, go/no-go criteria |
+| 03 | [RAID Log](03-raid-log.md) ([CSV](raid-log.csv)) | Risks, assumptions, issues and dependencies with owners and mitigations |
+| 04 | [Stakeholder & Comms Plan](04-stakeholder-comms-plan.md) | Stakeholder map, RACI, comms schedule, sample user announcements |
+| 05 | [Weekly Status Report](05-status-report-week-14.md) | RAG-rated status report mid-project, with a live issue being managed |
+| 06 | [Closure Report & Lessons Learned](06-closure-report-lessons-learned.md) | Benefits realised, handover to BAU, lessons for future projects |
 
 ## What this demonstrates
 
