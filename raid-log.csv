@@ -1,0 +1,23 @@
+ID,Type,Description,Probability,Impact,Score,RAG,Mitigation / Action,Owner,Status
+R-01,Risk,"Legacy line-of-business apps fail to package or run on Entra-joined devices",4,5,20,Red,"Early app discovery; packaging sprints; vendor engagement; Windows 365 Cloud PC fallback",Packaging Lead,Open
+R-02,Risk,"Branch bandwidth cannot support same-day re-provisioning",4,4,16,Red,"Autopilot pre-provisioning at head office; Delivery Optimisation; Connected Cache; staggered migrations",Technical Lead,Open
+R-03,Risk,"Users lose locally saved files when devices are reset",3,5,15,Red,"OneDrive Known Folder Move 4 weeks before wave; un-synced device report; T-1 reminder",Change Manager,Open
+R-04,Risk,"Printer and scanner drivers fail to deploy",4,3,12,Amber,"Universal Print at head office; tested driver packages for branch MFDs",Technical Lead,Open
+R-05,Risk,"GPO settings missed during rationalisation",2,5,10,Amber,"Group Policy Analytics; line-by-line mapping; InfoSec sign-off",Technical Lead,Open
+R-06,Risk,"Service desk overwhelmed during waves",3,3,9,Amber,"Floor-walkers; hypercare queue; knowledge articles; capped wave sizes",Service Desk Manager,Open
+R-07,Risk,"Key engineers pulled onto BAU incidents",3,3,9,Amber,"Backfill budget; ring-fenced time agreed",PM,Open
+R-08,Risk,"Wave clashes with business-critical events",2,4,8,Amber,"Business calendar checked at every go/no-go",PM,Open
+R-09,Risk,"Low user adoption at branches",2,3,6,Green,"Site champions; manager briefings; user guides",Change Manager,Open
+A-01,Assumption,"All users hold M365 E5 or E3 + EMS E5 licences",,,,,Licensing review week 4,PM,Validated
+A-02,Assumption,"~85% of devices meet Windows 11 hardware requirements",,,,,Hardware readiness report week 5,Technical Lead,Validated (87%)
+A-03,Assumption,"Risk & Compliance accept Intune reports as audit evidence",,,,,Risk & Compliance sign-off,PM,Validated
+A-04,Assumption,"App owners test and sign off within 5 working days",,,,,App owner agreement,Packaging Lead,Partially validated
+A-05,Assumption,"Devices can be reset without keeping local profiles",,,,,User persona analysis,Change Manager,Validated
+I-01,Issue,"Mortgage origination app fails on Entra-joined devices (Kerberos to on-prem share)",,,,Red,"Cloud Kerberos trust; vendor test; move Mortgage team to Wave 5 if not fixed by week 19",Technical Lead,Open
+I-02,Issue,"23 apps awaiting app owner sign-off",,,,Amber,"Escalated to SteerCo; testing slots booked; deadlines in go/no-go",PM,Open
+I-03,Issue,"4 pilot devices failed Autopilot enrolment (hash not uploaded)",,,,Green,"Reseller process corrected; manual upload for existing stock",Intune Engineer,Resolved
+D-01,Dependency,"Branch network upgrades (North) to 100 Mbps",,,,Amber,Needed by week 25,Network team,On track
+D-02,Dependency,"Identity sync health and hybrid identity cleanup",,,,Green,Needed by week 8,Identity team,Complete
+D-03,Dependency,"Defender for Endpoint onboarding of all devices",,,,Green,Needed by week 13,Security Operations,Complete
+D-04,Dependency,"Reseller registers device hashes at purchase",,,,Green,Needed by week 14,Procurement,Complete
+D-05,Dependency,"Mortgage app vendor confirms cloud Kerberos trust support",,,,Red,Needed by week 17,Vendor,Awaiting response
